@@ -1,4 +1,4 @@
-// ========== МОБІЛЬНЕ МЕНЮ (бургер) ==========
+// ========== МОБІЛЬНЕ МЕНЮ ==========
 document.addEventListener('DOMContentLoaded', function() {
     const mobileMenuBtn = document.getElementById('mobileMenuBtn');
     const nav = document.querySelector('.nav');
@@ -112,4 +112,5 @@ document.addEventListener('DOMContentLoaded', function() {
     }
     
     setActiveMenuItem();
+
 });
