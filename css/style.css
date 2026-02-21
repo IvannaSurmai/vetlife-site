@@ -1,4 +1,4 @@
-/* ========== CSS ЗМІННІ (кольори з твого дизайну) ========== */
+/* ========== CSS ЗМІННІ ========== */
 :root {
     --primary-light: #E4FFFD;
     --primary-medium: #5CA19B;
@@ -861,4 +861,5 @@ h1, h2, h3, h4 {
 .category-icon,
 .advantage-icon img {
     color: #267B6F;
+
 }
