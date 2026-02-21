@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VetLife - Ветеринарна клініка</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- ШАПКА (Header) -->
+    <header class="header">
+        <div class="container header-container">
+            <div class="logo">
+                <img src="images/logo.png" alt="VetLife логотип" class="logo-img">
+                <span class="logo-text">VetLife</span>
+            </div>
+            
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="index.html" class="nav-link active">Головна</a></li>
+                    <li><a href="services.html" class="nav-link">Послуги</a></li>
+                    <li><a href="team.html" class="nav-link">Наша команда</a></li>
+                    <li><a href="contacts.html" class="nav-link">Контакти</a></li>
+                </ul>
+            </nav>
+            
+            <div class="header-contacts">
+                <a href="tel:+380000000000" class="header-phone">+380 (00) 000-00-00</a>
+                <button class="mobile-menu-btn" id="mobileMenuBtn">☰</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- ГОЛОВНИЙ ЕКРАН (Hero) -->
+    <section class="hero">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">Турбота про здоров'я ваших улюбленців</h1>
+                <p class="hero-text">Професійна ветеринарна допомога з любов'ю та турботою. Працюємо цілодобово 7 днів на тиждень.</p>
+                <a href="contacts.html" class="btn btn-primary">Записатись на прийом</a>
+            </div>
+            <div class="hero-image">
+                <img src="images/animals/dog-with-doctor.jpg" alt="Собака з лікарем" class="hero-img">
+            </div>
+        </div>
+    </section>
+
+    <!-- ПЕРЕВАГИ (Advantages) -->
+    <section class="advantages">
+        <div class="container">
+            <h2 class="section-title">Чому обирають нас</h2>
+            <div class="advantages-grid">
+                <div class="advantage-card">
+                    <div class="advantage-icon">
+                        <img src="images/icons/hospital.svg" alt="Цілодобово">
+                    </div>
+                    <h3>Цілодобово</h3>
+                    <p>Працюємо 24/7 без вихідних та свят</p>
+                </div>
+                <div class="advantage-card">
+                    <div class="advantage-icon">
+                        <img src="images/icons/diagnostics.svg" alt="Діагностика">
+                    </div>
+                    <h3>Сучасна діагностика</h3>
+                    <p>УЗД, рентген, лабораторія</p>
+                </div>
+                <div class="advantage-card">
+                    <div class="advantage-icon">
+                        <img src="images/icons/surgery.svg" alt="Хірургія">
+                    </div>
+                    <h3>Досвідчені хірурги</h3>
+                    <p>Операції будь-якої складності</p>
+                </div>
+                <div class="advantage-card">
+                    <div class="advantage-icon">
+                        <img src="images/icons/home-visit.svg" alt="Виклик додому">
+                    </div>
+                    <h3>Виїзд додому</h3>
+                    <p>Приїжджаємо за 30 хвилин</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ПОСЛУГИ (Services preview) -->
+    <section class="services-preview">
+        <div class="container">
+            <h2 class="section-title">Наші послуги</h2>
+            <div class="services-grid">
+                <!-- УСІ ПОСЛУГИ З ВАШОЇ ПАПКИ -->
+                <div class="service-item">
+                    <img src="images/icons/therapy.svg" alt="Терапія" class="service-icon">
+                    <h3>Терапія</h3>
+                </div>
+                <div class="service-item">
+                    <img src="images/icons/surgery.svg" alt="Хірургія" class="service-icon">
+                    <h3>Хірургія</h3>
+                </div>
+                <div class="service-item">
+                    <img src="images/icons/vaccination.svg" alt="Вакцинація" class="service-icon">
+                    <h3>Вакцинація</h3>
+                </div>
+                <div class="service-item">
+                    <img src="images/icons/dentistry.svg" alt="Стоматологія" class="service-icon">
+                    <h3>Стоматологія</h3>
+                </div>
+                <div class="service-item">
+                    <img src="images/icons/dermatology.svg" alt="Дерматологія" class="service-icon">
+                    <h3>Дерматологія</h3>
+                </div>
+                <div class="service-item">
+                    <img src="images/icons/ophthalmology.svg" alt="Офтальмологія" class="service-icon">
+                    <h3>Офтальмологія</h3>
+                </div>
+                <div class="service-item">
+                    <img src="images/icons/orthopedics.svg" alt="Ортопедія" class="service-icon">
+                    <h3>Ортопедія</h3>
+                </div>
+                <div class="service-item">
+                    <img src="images/icons/urology.svg" alt="Урологія" class="service-icon">
+                    <h3>Урологія</h3>
+                </div>
+                <div class="service-item">
+                    <img src="images/icons/ornithology.svg" alt="Орнітологія" class="service-icon">
+                    <h3>Орнітологія</h3>
+                </div>
+                <div class="service-item">
+                    <img src="images/icons/rotatory.svg" alt="Ратологія" class="service-icon">
+                    <h3>Ратологія</h3>
+                </div>
+                <div class="service-item">
+                    <img src="images/icons/laboratory.svg" alt="Лабораторія" class="service-icon">
+                    <h3>Лабораторія</h3>
+                </div>
+                <div class="service-item">
+                    <img src="images/icons/diagnostics.svg" alt="Діагностика" class="service-icon">
+                    <h3>Діагностика</h3>
+                </div>
+                <div class="service-item">
+                    <img src="images/icons/chipping.svg" alt="Чіпування" class="service-icon">
+                    <h3>Чіпування</h3>
+                </div>
+                <div class="service-item">
+                    <img src="images/icons/consultation.svg" alt="Консультації" class="service-icon">
+                    <h3>Консультації</h3>
+                </div>
+                <div class="service-item">
+                    <img src="images/icons/grooming.svg" alt="Грумінг" class="service-icon">
+                    <h3>Грумінг</h3>
+                </div>
+                <div class="service-item">
+                    <img src="images/icons/home-visit.svg" alt="Виклик додому" class="service-icon">
+                    <h3>Виклик додому</h3>
+                </div>
+                <div class="service-item">
+                    <img src="images/icons/hospital.svg" alt="Стаціонар" class="service-icon">
+                    <h3>Стаціонар</h3>
+                </div>
+                <div class="service-item">
+                    <img src="images/icons/obstetric.svg" alt="Акушерство" class="service-icon">
+                    <h3>Акушерство</h3>
+                </div>
+                <div class="service-item">
+                    <img src="images/icons/packages.svg" alt="Пакети послуг" class="service-icon">
+                    <h3>Пакети послуг</h3>
+                </div>
+            </div>
+            <div class="text-center">
+                <a href="services.html" class="btn btn-secondary">Всі послуги та ціни</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ПРО НАС (About) -->
+    <section class="about">
+        <div class="container about-container">
+            <div class="about-image">
+                <img src="images/animals/cat-on-hands.jpg" alt="Лікар з котом" class="about-img">
+            </div>
+            <div class="about-content">
+                <h2 class="section-title">Про клініку VetLife</h2>
+                <p>Ми — команда професійних ветеринарів, які щиро люблять тварин. Наша клініка працює з 2015 року і за цей час ми допомогли більш ніж 10 000 улюбленців.</p>
+                <p>Використовуємо тільки сучасне обладнання та перевірені методи лікування. Для нас важливий індивідуальний підхід до кожного пацієнта.</p>
+                <div class="about-stats">
+                    <div class="stat">
+                        <span class="stat-number">10+</span>
+                        <span class="stat-text">років досвіду</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">5000+</span>
+                        <span class="stat-text">щасливих тварин</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">24/7</span>
+                        <span class="stat-text">цілодобово</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- КОМАНДА (Team preview) -->
+    <section class="team-preview">
+        <div class="container">
+            <h2 class="section-title">Наша команда</h2>
+            <div class="team-grid">
+                <div class="team-card">
+                    <img src="images/team/doctor1.jpg" alt="Лікар" class="team-photo">
+                    <h3>Олена Петренко</h3>
+                    <p>Головний лікар, хірург</p>
+                </div>
+                <div class="team-card">
+                    <img src="images/team/doctor2.jpg" alt="Лікар" class="team-photo">
+                    <h3>Михайло Коваль</h3>
+                    <p>Терапевт</p>
+                </div>
+                <div class="team-card">
+                    <img src="images/team/doctor3.jpg" alt="Лікар" class="team-photo">
+                    <h3>Анна Шевченко</h3>
+                    <p>Дерматолог</p>
+                </div>
+            </div>
+            <div class="text-center">
+                <a href="team.html" class="btn btn-secondary">Вся команда</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ВІДГУКИ (Testimonials) -->
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="section-title">Відгуки клієнтів</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <p class="testimonial-text">"Дуже вдячна лікарям за порятунок мого кота! Професійно, швидко і з турботою. Тепер тільки сюди!"</p>
+                    <div class="testimonial-author">
+                        <span class="author-name">Марина</span>
+                        <span class="author-pet">господарка кота Барсика</span>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <p class="testimonial-text">"Найкраща ветеринарна клініка в місті! Сучасне обладнання, уважний персонал. Рекомендую!"</p>
+                    <div class="testimonial-author">
+                        <span class="author-name">Олександр</span>
+                        <span class="author-pet">господар собаки Рекса</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ФУТЕР (Footer) -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-col">
+                <h3>VetLife</h3>
+                <p>Турбота про здоров'я ваших улюбленців</p>
+            </div>
+            <div class="footer-col">
+                <h4>Контакти</h4>
+                <p>вул. Ветеринарна, 15, Київ</p>
+                <p>+380 (00) 000-00-00</p>
+                <p>info@vetlife.ua</p>
+            </div>
+            <div class="footer-col">
+                <h4>Графік</h4>
+                <p>Цілодобово</p>
+                <p>Без вихідних</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>© 2026 VetLife. Всі права захищені.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Послуги та ціни - VetLife</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- ШАПКА (Header) -->
+    <header class="header">
+        <div class="container header-container">
+            <div class="logo">
+                <img src="images/logo.png" alt="VetLife логотип" class="logo-img">
+                <span class="logo-text">VetLife</span>
+            </div>
+            
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="index.html" class="nav-link">Головна</a></li>
+                    <li><a href="services.html" class="nav-link active">Послуги</a></li>
+                    <li><a href="team.html" class="nav-link">Наша команда</a></li>
+                    <li><a href="contacts.html" class="nav-link">Контакти</a></li>
+                </ul>
+            </nav>
+            
+            <div class="header-contacts">
+                <a href="tel:+380000000000" class="header-phone">+380 (00) 000-00-00</a>
+                <button class="mobile-menu-btn" id="mobileMenuBtn">☰</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- ЗАГОЛОВОК СТОРІНКИ -->
+    <section class="page-header">
+        <div class="container">
+            <h1 class="page-title">Наші послуги та ціни</h1>
+            <p class="page-description">Оберіть потрібну послугу та дізнайтеся деталі</p>
+        </div>
+    </section>
+
+    <!-- ПОСЛУГИ З АКОРДЕОНАМИ -->
+    <section class="services-full">
+        <div class="container">
+            <div class="services-categories">
+                
+                <!-- АНЕСТЕЗІЯ (icon: therapy.svg або surgery.svg) -->
+                <div class="service-category">
+                    <div class="service-category-header accordion-header">
+                        <img src="images/icons/surgery.svg" alt="Анестезія" class="category-icon">
+                        <h2 class="category-title">Анестезія</h2>
+                        <span class="accordion-icon">▼</span>
+                    </div>
+                    <div class="service-category-content accordion-content">
+                        <div class="service-details">
+                            <div class="service-item-detail"><h3>Місцева</h3><p></p><span class="service-price">585 грн</span></div>
+                            <div class="service-item-detail"><h3>Провідникова</h3><p></p><span class="service-price">690 грн</span></div>
+                            <div class="service-item-detail"><h3>Епідуральна</h3><p></p><span class="service-price">1280 грн</span></div>
+                            <div class="service-item-detail"><h3>Загальна (кіт, фретка, гризун)</h3><p></p><span class="service-price">1250 грн</span></div>
+                            <div class="service-item-detail"><h3>Загальна (собака 20–40 кг)</h3><p></p><span class="service-price">1750 грн</span></div>
+                            <div class="service-item-detail"><h3>Загальна (собака до 20 кг)</h3><p></p><span class="service-price">1370 грн</span></div>
+                            <div class="service-item-detail"><h3>Загальна (собака понад 40 кг)</h3><p></p><span class="service-price">2100 грн</span></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ВАКЦИНАЦІЯ -->
+                <div class="service-category">
+                    <div class="service-category-header accordion-header">
+                        <img src="images/icons/vaccination.svg" alt="Вакцинація" class="category-icon">
+                        <h2 class="category-title">Вакцинація</h2>
+                        <span class="accordion-icon">▼</span>
+                    </div>
+                    <div class="service-category-content accordion-content">
+                        <div class="service-details">
+                            <div class="service-item-detail"><h3>Комплексна</h3><p></p><span class="service-price">1700 грн</span></div>
+                            <div class="service-item-detail"><h3>Вакцинація кроликів</h3><p></p><span class="service-price">1410 грн</span></div>
+                            <div class="service-item-detail"><h3>Моновалентна</h3><p></p><span class="service-price">1210 грн</span></div>
+                            <div class="service-item-detail"><h3>Моновалентна (сказ)</h3><p></p><span class="service-price">725 грн</span></div>
+                            <div class="service-item-detail"><h3>Полівалентна (без сказу)</h3><p></p><span class="service-price">1410 грн</span></div>
+                            <div class="service-item-detail"><h3>Вакцинація тхора</h3><p></p><span class="service-price">1700 грн</span></div>
+                            <div class="service-item-detail"><h3>Реєстрація ветпаспорта</h3><p></p><span class="service-price">325 грн</span></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ДЕРМАТОЛОГІЯ -->
+                <div class="service-category">
+                    <div class="service-category-header accordion-header">
+                        <img src="images/icons/dermatology.svg" alt="Дерматологія" class="category-icon">
+                        <h2 class="category-title">Ветеринарна дерматологія</h2>
+                        <span class="accordion-icon">▼</span>
+                    </div>
+                    <div class="service-category-content accordion-content">
+                        <div class="service-details">
+                            <div class="service-item-detail"><h3>Глибокий зішкріб зі шкіри</h3><p></p><span class="service-price">520 грн</span></div>
+                            <div class="service-item-detail"><h3>Дослідження лампою Вуда</h3><p></p><span class="service-price">130 грн</span></div>
+                            <div class="service-item-detail"><h3>Зішкріб з вушного каналу</h3><p></p><span class="service-price">455 грн</span></div>
+                            <div class="service-item-detail"><h3>Посів на дерматофіти</h3><p></p><span class="service-price">675 грн</span></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ЛАБОРАТОРІЯ -->
+                <div class="service-category">
+                    <div class="service-category-header accordion-header">
+                        <img src="images/icons/laboratory.svg" alt="Лабораторія" class="category-icon">
+                        <h2 class="category-title">Ветеринарна лабораторія</h2>
+                        <span class="accordion-icon">▼</span>
+                    </div>
+                    <div class="service-category-content accordion-content">
+                        <div class="service-details">
+                            <div class="service-item-detail"><h3>CPV Ag (парвовірус собак)</h3><p></p><span class="service-price">1235 грн</span></div>
+                            <div class="service-item-detail"><h3>CPV Ag+CCV Ag</h3><p></p><span class="service-price">1430 грн</span></div>
+                            <div class="service-item-detail"><h3>CRP (C-реактивний білок)</h3><p></p><span class="service-price">1820 грн</span></div>
+                            <div class="service-item-detail"><h3>FPV Ag (панлейкопенія котів)</h3><p></p><span class="service-price">1365 грн</span></div>
+                            <div class="service-item-detail"><h3>Анаплазмоз IgG, бореліоз IgG</h3><p></p><span class="service-price">1610 грн</span></div>
+                            <div class="service-item-detail"><h3>Біохімія (один показник)</h3><p></p><span class="service-price">300 грн</span></div>
+                            <div class="service-item-detail"><h3>Біохімічний аналіз крові</h3><p></p><span class="service-price">2370 грн</span></div>
+                            <div class="service-item-detail"><h3>Біохімія (гризуни)</h3><p></p><span class="service-price">2795 грн</span></div>
+                            <div class="service-item-detail"><h3>Дослідження крові (анаплазмоз)</h3><p></p><span class="service-price">270 грн</span></div>
+                            <div class="service-item-detail"><h3>Дослідження сечі</h3><p></p><span class="service-price">765 грн</span></div>
+                            <div class="service-item-detail"><h3>Копрограма</h3><p></p><span class="service-price">765 грн</span></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ВИКЛИК ДОДОМУ -->
+                <div class="service-category">
+                    <div class="service-category-header accordion-header">
+                        <img src="images/icons/home-visit.svg" alt="Виклик додому" class="category-icon">
+                        <h2 class="category-title">Виклик ветеринара додому</h2>
+                        <span class="accordion-icon">▼</span>
+                    </div>
+                    <div class="service-category-content accordion-content">
+                        <div class="service-details">
+                            <div class="service-item-detail"><h3>В межах району (11:00-20:00)</h3><p></p><span class="service-price">2520 грн</span></div>
+                            <div class="service-item-detail"><h3>По Києву (11:00-20:00)</h3><p></p><span class="service-price">3720 грн</span></div>
+                            <div class="service-item-detail"><h3>За межі Києва</h3><p></p><span class="service-price">4320 грн</span></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ГРУМІНГ -->
+                <div class="service-category">
+                    <div class="service-category-header accordion-header">
+                        <img src="images/icons/grooming.svg" alt="Грумінг" class="category-icon">
+                        <h2 class="category-title">Грумінг</h2>
+                        <span class="accordion-icon">▼</span>
+                    </div>
+                    <div class="service-category-content accordion-content">
+                        <div class="service-details">
+                            <div class="service-item-detail"><h3>Вичісування (до 10 кг)</h3><p></p><span class="service-price">885 грн</span></div>
+                            <div class="service-item-detail"><h3>Комплексний грумінг (10-25 кг)</h3><p></p><span class="service-price">2100 грн</span></div>
+                            <div class="service-item-detail"><h3>Купання (коти)</h3><p></p><span class="service-price">850 грн</span></div>
+                            <div class="service-item-detail"><h3>Підрізання кігтів</h3><p></p><span class="service-price">450 грн</span></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ДІАГНОСТИКА -->
+                <div class="service-category">
+                    <div class="service-category-header accordion-header">
+                        <img src="images/icons/diagnostics.svg" alt="Діагностика" class="category-icon">
+                        <h2 class="category-title">Діагностика</h2>
+                        <span class="accordion-icon">▼</span>
+                    </div>
+                    <div class="service-category-content accordion-content">
+                        <div class="service-details">
+                            <div class="service-item-detail"><h3>Бронхоскопія</h3><p></p><span class="service-price">4200 грн</span></div>
+                            <div class="service-item-detail"><h3>Гастроскопія</h3><p></p><span class="service-price">3200 грн</span></div>
+                            <div class="service-item-detail"><h3>МРТ (з анестезією)</h3><p></p><span class="service-price">14690 грн</span></div>
+                            <div class="service-item-detail"><h3>Рентгенографія</h3><p></p><span class="service-price">700 грн</span></div>
+                            <div class="service-item-detail"><h3>УЗД абдомінальне</h3><p></p><span class="service-price">1300 грн</span></div>
+                            <div class="service-item-detail"><h3>УЗД одного органу</h3><p></p><span class="service-price">900 грн</span></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- АКУШЕРСТВО -->
+                <div class="service-category">
+                    <div class="service-category-header accordion-header">
+                        <img src="images/icons/obstetric.svg" alt="Акушерство" class="category-icon">
+                        <h2 class="category-title">Ветеринарне акушерство</h2>
+                        <span class="accordion-icon">▼</span>
+                    </div>
+                    <div class="service-category-content accordion-content">
+                        <div class="service-details">
+                            <div class="service-item-detail"><h3>Гематометра (кішка)</h3><p></p><span class="service-price">6000 грн</span></div>
+                            <div class="service-item-detail"><h3>Кесарів розтин (кішка)</h3><p></p><span class="service-price">6000 грн</span></div>
+                            <div class="service-item-detail"><h3>Піометра (кішка)</h3><p></p><span class="service-price">10725 грн</span></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- КОНСУЛЬТАЦІЇ -->
+                <div class="service-category">
+                    <div class="service-category-header accordion-header">
+                        <img src="images/icons/consultation.svg" alt="Консультації" class="category-icon">
+                        <h2 class="category-title">Консультації</h2>
+                        <span class="accordion-icon">▼</span>
+                    </div>
+                    <div class="service-category-content accordion-content">
+                        <div class="service-details">
+                            <div class="service-item-detail"><h3>Прийом головного лікаря</h3><p></p><span class="service-price">1350 грн</span></div>
+                            <div class="service-item-detail"><h3>Прийом ветеринарного лікаря</h3><p></p><span class="service-price">950 грн</span></div>
+                            <div class="service-item-detail"><h3>Консультація за аналізами</h3><p></p><span class="service-price">550 грн</span></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ОРНІТОЛОГІЯ -->
+                <div class="service-category">
+                    <div class="service-category-header accordion-header">
+                        <img src="images/icons/ornithology.svg" alt="Орнітологія" class="category-icon">
+                        <h2 class="category-title">Орнітологія</h2>
+                        <span class="accordion-icon">▼</span>
+                    </div>
+                    <div class="service-category-content accordion-content">
+                        <div class="service-details">
+                            <div class="service-item-detail"><h3>Дослідження сечі</h3><p></p><span class="service-price">765 грн</span></div>
+                            <div class="service-item-detail"><h3>Копрограма</h3><p></p><span class="service-price">765 грн</span></div>
+                            <div class="service-item-detail"><h3>Обрізка дзьоба</h3><p></p><span class="service-price">1200 грн</span></div>
+                            <div class="service-item-detail"><h3>Прийом орнітолога</h3><p></p><span class="service-price">1350 грн</span></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ОРТОПЕДІЯ -->
+                <div class="service-category">
+                    <div class="service-category-header accordion-header">
+                        <img src="images/icons/orthopedics.svg" alt="Ортопедія" class="category-icon">
+                        <h2 class="category-title">Ортопедія</h2>
+                        <span class="accordion-icon">▼</span>
+                    </div>
+                    <div class="service-category-content accordion-content">
+                        <div class="service-details">
+                            <div class="service-item-detail"><h3>Ампутація пальця (до 10 кг)</h3><p></p><span class="service-price">4030 грн</span></div>
+                            <div class="service-item-detail"><h3>Ампутація пальця (понад 10 кг)</h3><p></p><span class="service-price">6825 грн</span></div>
+                            <div class="service-item-detail"><h3>Ампутація грудної кінцівки (до 10 кг)</h3><p></p><span class="service-price">5430 грн</span></div>
+                            <div class="service-item-detail"><h3>Вивих колінної чашки (операція)</h3><p></p><span class="service-price">15500 грн</span></div>
+                            <div class="service-item-detail"><h3>Остеотомія коригуюча (I категорія)</h3><p></p><span class="service-price">14850 грн</span></div>
+                            <div class="service-item-detail"><h3>Протезування ліктьового суглоба</h3><p></p><span class="service-price">31450 грн</span></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ОФТАЛЬМОЛОГІЯ -->
+                <div class="service-category">
+                    <div class="service-category-header accordion-header">
+                        <img src="images/icons/ophthalmology.svg" alt="Офтальмологія" class="category-icon">
+                        <h2 class="category-title">Офтальмологія</h2>
+                        <span class="accordion-icon">▼</span>
+                    </div>
+                    <div class="service-category-content accordion-content">
+                        <div class="service-details">
+                            <div class="service-item-detail"><h3>Аденома 3-го повіка</h3><p></p><span class="service-price">5590 грн</span></div>
+                            <div class="service-item-detail"><h3>Випадання очного яблука</h3><p></p><span class="service-price">5430 грн</span></div>
+                            <div class="service-item-detail"><h3>Заворот повік (одне око)</h3><p></p><span class="service-price">7150 грн</span></div>
+                            <div class="service-item-detail"><h3>Корекція очної щілини (два ока)</h3><p></p><span class="service-price">10000 грн</span></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- РАТОЛОГІЯ (rotatory) -->
+                <div class="service-category">
+                    <div class="service-category-header accordion-header">
+                        <img src="images/icons/rotatory.svg" alt="Ратологія" class="category-icon">
+                        <h2 class="category-title">Ратологія</h2>
+                        <span class="accordion-icon">▼</span>
+                    </div>
+                    <div class="service-category-content accordion-content">
+                        <div class="service-details">
+                            <div class="service-item-detail"><h3>Абсцес (марсупіалізація)</h3><p></p><span class="service-price">3350 грн</span></div>
+                            <div class="service-item-detail"><h3>Кастрація самця гризуна</h3><p></p><span class="service-price">3850 грн</span></div>
+                            <div class="service-item-detail"><h3>Підрізання зубів (1 ступінь)</h3><p></p><span class="service-price">1250 грн</span></div>
+                            <div class="service-item-detail"><h3>Примусове годування</h3><p></p><span class="service-price">130 грн</span></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- СТАЦІОНАР -->
+                <div class="service-category">
+                    <div class="service-category-header accordion-header">
+                        <img src="images/icons/hospital.svg" alt="Стаціонар" class="category-icon">
+                        <h2 class="category-title">Стаціонар</h2>
+                        <span class="accordion-icon">▼</span>
+                    </div>
+                    <div class="service-category-content accordion-content">
+                        <div class="service-details">
+                            <div class="service-item-detail"><h3>Денний</h3><p></p><span class="service-price">750 грн</span></div>
+                            <div class="service-item-detail"><h3>На добу</h3><p></p><span class="service-price">1150 грн</span></div>
+                            <div class="service-item-detail"><h3>Із супроводом лікаря</h3><p></p><span class="service-price">4500 грн</span></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- СТОМАТОЛОГІЯ -->
+                <div class="service-category">
+                    <div class="service-category-header accordion-header">
+                        <img src="images/icons/dentistry.svg" alt="Стоматологія" class="category-icon">
+                        <h2 class="category-title">Стоматологія</h2>
+                        <span class="accordion-icon">▼</span>
+                    </div>
+                    <div class="service-category-content accordion-content">
+                        <div class="service-details">
+                            <div class="service-item-detail"><h3>Медикаментозна обробка</h3><p></p><span class="service-price">560 грн</span></div>
+                            <div class="service-item-detail"><h3>Чищення зубів</h3><p></p><span class="service-price">1885 грн</span></div>
+                            <div class="service-item-detail"><h3>Видалення зуба (однокореневий)</h3><p></p><span class="service-price">650 грн</span></div>
+                            <div class="service-item-detail"><h3>Видалення зуба (двокореневий)</h3><p></p><span class="service-price">825 грн</span></div>
+                            <div class="service-item-detail"><h3>Видалення зуба (трьохкореневий)</h3><p></p><span class="service-price">1860 грн</span></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ТЕРАПІЯ -->
+                <div class="service-category">
+                    <div class="service-category-header accordion-header">
+                        <img src="images/icons/therapy.svg" alt="Терапія" class="category-icon">
+                        <h2 class="category-title">Терапія</h2>
+                        <span class="accordion-icon">▼</span>
+                    </div>
+                    <div class="service-category-content accordion-content">
+                        <div class="service-details">
+                            <div class="service-item-detail"><h3>Бинтова пов'язка</h3><p></p><span class="service-price">350 грн</span></div>
+                            <div class="service-item-detail"><h3>Введення препаратів (оральне)</h3><p></p><span class="service-price">75 грн</span></div>
+                            <div class="service-item-detail"><h3>Введення препаратів (внутрішньовенне)</h3><p></p><span class="service-price">170 грн</span></div>
+                            <div class="service-item-detail"><h3>Введення препаратів (внутрішньопорожнинне)</h3><p></p><span class="service-price">620 грн</span></div>
+                            <div class="service-item-detail"><h3>Взяття проби крові</h3><p></p><span class="service-price">275 грн</span></div>
+                            <div class="service-item-detail"><h3>Інфузія підшкірна</h3><p></p><span class="service-price">575 грн</span></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- УРОЛОГІЯ -->
+                <div class="service-category">
+                    <div class="service-category-header accordion-header">
+                        <img src="images/icons/urology.svg" alt="Урологія" class="category-icon">
+                        <h2 class="category-title">Урологія</h2>
+                        <span class="accordion-icon">▼</span>
+                    </div>
+                    <div class="service-category-content accordion-content">
+                        <div class="service-details">
+                            <div class="service-item-detail"><h3>Ампутація статевого члена</h3><p></p><span class="service-price">7730 грн</span></div>
+                            <div class="service-item-detail"><h3>Анастомоз сечоводу</h3><p></p><span class="service-price">8050 грн</span></div>
+                            <div class="service-item-detail"><h3>Катетеризація сечового міхура</h3><p></p><span class="service-price">1700-2100 грн</span></div>
+                            <div class="service-item-detail"><h3>Кастрація кота</h3><p></p><span class="service-price">від 1200 грн</span></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ХІРУРГІЯ (загальна) -->
+                <div class="service-category">
+                    <div class="service-category-header accordion-header">
+                        <img src="images/icons/surgery.svg" alt="Хірургія" class="category-icon">
+                        <h2 class="category-title">Хірургія для тварин</h2>
+                        <span class="accordion-icon">▼</span>
+                    </div>
+                    <div class="service-category-content accordion-content">
+                        <div class="service-details">
+                            <div class="service-item-detail"><h3>Операції на органах черевної порожнини</h3><p></p><span class="service-price">індивідуально</span></div>
+                            <div class="service-item-detail"><h3>Резекція підшлункової залози</h3><p></p><span class="service-price">індивідуально</span></div>
+                            <div class="service-item-detail"><h3>Резекція стравоходу</h3><p></p><span class="service-price">індивідуально</span></div>
+                            <div class="service-item-detail"><h3>Резекція кишківника</h3><p></p><span class="service-price">індивідуально</span></div>
+                            <div class="service-item-detail"><h3>Пластична хірургія</h3><p></p><span class="service-price">індивідуально</span></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ЧІПУВАННЯ -->
+                <div class="service-category">
+                    <div class="service-category-header accordion-header">
+                        <img src="images/icons/chipping.svg" alt="Чіпування" class="category-icon">
+                        <h2 class="category-title">Чіпування тварин</h2>
+                        <span class="accordion-icon">▼</span>
+                    </div>
+                    <div class="service-category-content accordion-content">
+                        <div class="service-details">
+                            <div class="service-item-detail"><h3>З вартістю чіпа</h3><p></p><span class="service-price">1450 грн</span></div>
+                            <div class="service-item-detail"><h3>Без вартості чіпа</h3><p></p><span class="service-price">950 грн</span></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ПАКЕТИ ПОСЛУГ -->
+                <div class="service-category">
+                    <div class="service-category-header accordion-header">
+                        <img src="images/icons/packages.svg" alt="Пакети послуг" class="category-icon">
+                        <h2 class="category-title">Пакети послуг</h2>
+                        <span class="accordion-icon">▼</span>
+                    </div>
+                    <div class="service-category-content accordion-content">
+                        <div class="service-details">
+                            <div class="service-item-detail"><h3>Check-up дорослої тварини</h3><p></p><span class="service-price">6280 грн</span></div>
+                            <div class="service-item-detail"><h3>Ми придбали цуценя/кошеня</h3><p></p><span class="service-price">7990 грн</span></div>
+                            <div class="service-item-detail"><h3>Правильне харчування</h3><p></p><span class="service-price">6625 грн</span></div>
+                            <div class="service-item-detail"><h3>Маленький зубастик (кіт/собака)</h3><p></p><span class="service-price">11580 грн</span></div>
+                            <div class="service-item-detail"><h3>Здорова посмішка улюбленця</h3><p></p><span class="service-price">13440 грн</span></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ФУТЕР (Footer) -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-col">
+                <h3>VetLife</h3>
+                <p>Турбота про здоров'я ваших улюбленців</p>
+            </div>
+            <div class="footer-col">
+                <h4>Контакти</h4>
+                <p>вул. Ветеринарна, 15, Київ</p>
+                <p>+380 (00) 000-00-00</p>
+                <p>info@vetlife.ua</p>
+            </div>
+            <div class="footer-col">
+                <h4>Графік</h4>
+                <p>Цілодобово</p>
+                <p>Без вихідних</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>© 2026 VetLife. Всі права захищені.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
